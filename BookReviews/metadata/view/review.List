@@ -63,8 +63,6 @@
                 "height": null,
                 "itemId": "dataview",
                 "width": null,
-                "designer|userClassName": "review.List",
-                "designer|userAlias": "reviewlist",
                 "autoScroll": true,
                 "itemSelector": ".review",
                 "store": "Reviews"
@@ -82,7 +80,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "tpl",
                         "implHandler": [
                             "<tpl for=\".\">",
                             "<div class=\"review {[xindex === 1 ? \"first-review\" : \"\"]}\">",
@@ -106,7 +103,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "bind",
                 "fn": "bind",
                 "designer|params": [
                     "record",

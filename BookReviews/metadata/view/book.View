@@ -33,7 +33,6 @@
                 "itemId": "imgCt",
                 "margin": "0 10 0 0",
                 "width": 201,
-                "designer|userClassName": "MyImg",
                 "src": null
             },
             "designerId": "537f62f8-384a-400e-9c08-6bb8cc8b9ec1"
@@ -76,8 +75,7 @@
                 ],
                 "height": null,
                 "itemId": "contentCt",
-                "width": 500,
-                "designer|userClassName": "MyComponent"
+                "width": 500
             },
             "mockCfgs": [
                 "data"
@@ -92,7 +90,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "tpl",
                         "implHandler": [
                             "<div class=\"name\">{name} <span>${price}</span></div>",
                             "<div class=\"author\">By {author}</div>",
@@ -112,7 +109,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "bind",
                 "fn": "bind",
                 "designer|params": [
                     "record"

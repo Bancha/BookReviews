@@ -22,7 +22,6 @@
             "userConfig": {
                 "container|align": "stretch",
                 "border": false,
-                "designer|userClassName": "MyPanel1",
                 "layout": "vbox",
                 "title": null
             },
