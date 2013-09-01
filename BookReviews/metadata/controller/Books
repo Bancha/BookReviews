@@ -74,8 +74,8 @@
             "userConfig": {
                 "fn": "onDataviewSelectionChange",
                 "implHandler": [
-                    "        if (selections.length) {",
-                    "            this.showBook(selections[0]);",
+                    "        if (selected.length) {",
+                    "            this.showBook(selected[0]);",
                     "        }"
                 ],
                 "name": "selectionchange",

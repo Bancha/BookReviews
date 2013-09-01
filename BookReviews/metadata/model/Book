@@ -83,7 +83,7 @@
             "designerId": "e3e4b833-db20-41b8-a969-d639d774918e"
         },
         {
-            "type": "Ext.data.HasManyAssociation",
+            "type": "Ext.data.association.HasMany",
             "reference": {
                 "name": "hasMany",
                 "type": "object"

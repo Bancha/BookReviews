@@ -19,7 +19,7 @@
     "xdsBuild": 991,
     "schemaVersion": 1,
     "upgradeVersion": 210000000503,
-    "framework": "ext40",
+    "framework": "ext42",
     "topInstanceFileMap": {
         "67270e91-e0ac-420b-bc00-a539b13a9ec0": {
             "paths": [
