@@ -36,7 +36,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "html": [
-                            "Book Reviews"
+                            "['Book Reviews']"
                         ],
                         "itemId": "header",
                         "layout|flex": 1,

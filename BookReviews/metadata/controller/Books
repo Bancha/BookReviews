@@ -101,7 +101,8 @@
                     "var me = this;",
                     "",
                     "me.getBookView().bind(record);",
-                    "me.getReviewList().bind(record, me.getReviewsStore());"
+                    "me.getReviewsStore().clearFilter();",
+                    "me.getReviewsStore().filter('book_id', record.get('id'));"
                 ]
             },
             "designerId": "ae7c764c-e275-4bf6-b57c-c35dabaf0b77"

@@ -60,11 +60,6 @@ Ext.define('MyApp.view.review.List', {
         });
 
         me.callParent(arguments);
-    },
-
-    bind: function(record, store) {
-        store.loadData(record.getAssociatedData().reviews || []);
-        this.child('#dataview').bindStore(store);
     }
 
 });

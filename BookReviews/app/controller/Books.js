@@ -57,7 +57,8 @@ Ext.define('MyApp.controller.Books', {
         var me = this;
 
         me.getBookView().bind(record);
-        me.getReviewList().bind(record, me.getReviewsStore());
+        me.getReviewsStore().clearFilter();
+        me.getReviewsStore().filter('book_id', record.get('id'));
     },
 
     onBooksStoreLoad: function(store, records) {

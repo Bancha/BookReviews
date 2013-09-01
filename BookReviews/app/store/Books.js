@@ -26,14 +26,7 @@ Ext.define('MyApp.store.Books', {
         me.callParent([Ext.apply({
             autoLoad: true,
             model: 'MyApp.model.Book',
-            storeId: 'Books',
-            proxy: {
-                type: 'ajax',
-                url: 'resources/json/products.json',
-                reader: {
-                    type: 'json'
-                }
-            }
+            storeId: 'Books'
         }, cfg)]);
     }
 });

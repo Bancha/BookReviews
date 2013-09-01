@@ -42,7 +42,9 @@ Ext.define('MyApp.view.Main', {
                     dockedItems: [
                         {
                             xtype: 'header',
-                            html: 'Book Reviews',
+                            html: [
+                                'Book Reviews'
+                            ],
                             itemId: 'header',
                             flex: 1,
                             dock: 'top'

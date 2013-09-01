@@ -11,30 +11,5 @@
         "storeId": "Books",
         "designer|userClassName": "Books"
     },
-    "designerId": "77a4c512-50f1-4cf7-9c36-ab7cc8defed8",
-    "cn": [
-        {
-            "type": "Ext.data.proxy.Ajax",
-            "reference": {
-                "name": "proxy",
-                "type": "object"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "url": "resources/json/products.json"
-            },
-            "designerId": "f858ed19-277c-4c51-91a4-a6bba6c4bfd5",
-            "cn": [
-                {
-                    "type": "Ext.data.reader.Json",
-                    "reference": {
-                        "name": "reader",
-                        "type": "object"
-                    },
-                    "codeClass": null,
-                    "designerId": "aea13381-bad1-44ce-84c8-f0e06ba83a97"
-                }
-            ]
-        }
-    ]
+    "designerId": "77a4c512-50f1-4cf7-9c36-ab7cc8defed8"
 }

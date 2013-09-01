@@ -6,6 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
+        "autoLoad": true,
         "model": "Review",
         "storeId": "Reviews",
         "designer|userClassName": "Reviews"

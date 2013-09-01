@@ -6,9 +6,17 @@
     },
     "codeClass": null,
     "userConfig": {
+        "bancha": "true",
         "designer|userClassName": "Review"
     },
     "designerId": "3752c8bd-0aa4-4096-a550-5db9e50da340",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "bancha",
+            "type": "string"
+        }
+    ],
     "cn": [
         {
             "type": "Ext.data.Field",

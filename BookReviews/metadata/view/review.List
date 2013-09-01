@@ -94,26 +94,6 @@
                     "designerId": "bae4ab25-4775-45e3-940d-90a22d602953"
                 }
             ]
-        },
-        {
-            "type": "basicfunction",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "fn": "bind",
-                "designer|params": [
-                    "record",
-                    "store"
-                ],
-                "implHandler": [
-                    "store.loadData(record.getAssociatedData().reviews || []);",
-                    "this.child('#dataview').bindStore(store);"
-                ]
-            },
-            "designerId": "0c202f7a-697d-43f0-9846-4b7c74aba73c"
         }
     ]
 }

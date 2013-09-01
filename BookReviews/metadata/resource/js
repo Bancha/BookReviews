@@ -1,0 +1,13 @@
+{
+    "type": "jsresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "js",
+        "url": "/bancha/js/ScriptTagInitializer.js"
+    },
+    "designerId": "7effc059-6449-4327-b00c-bff1203bcdfd"
+}

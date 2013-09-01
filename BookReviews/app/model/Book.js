@@ -20,6 +20,8 @@ Ext.define('MyApp.model.Book', {
         'MyApp.model.Review'
     ],
 
+    bancha: 'true',
+
     fields: [
         {
             name: 'id'

@@ -24,6 +24,7 @@ Ext.define('MyApp.store.Reviews', {
         var me = this;
         cfg = cfg || {};
         me.callParent([Ext.apply({
+            autoLoad: true,
             model: 'MyApp.model.Review',
             storeId: 'Reviews'
         }, cfg)]);
